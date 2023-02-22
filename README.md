@@ -8,8 +8,8 @@
 
 ## 🌐 Overview
 
-Esse projeto foi feito com a linguagem Pyspark na etapa de transformação dos dados, utilizando o Google Colab. A extração foi feita
-Nesta etapa foram realizados processos como o tratamento de dados inválidos, correção dos tipos dos dado, além da substituição de valores nulos por "non_informed". 
+Esse projeto foi feito com a linguagem Pyspark na etapa de transformação dos dados, utilizando o Google Colab.
+Nesta etapa foram realizados processos como o tratamento de dados inválidos, correção dos tipos dos dados, além da substituição de valores nulos por "non_informed". 
 
 <br/>
 
