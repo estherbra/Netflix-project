@@ -35,6 +35,7 @@ The json file can be found on "Step 3" folder.
 
 4. Fourth step is to finally run the notebook with all substitutions. The notebook can be found on "Step 4" folder. 
 <br/>
+
 5. Fifth step is to visualize data on Azure Portal or on SQL Server Management Studio to make sure the data was sent correctly.
 
 ![sql-table-netflix](https://i.imgur.com/e5A35zA.png)
@@ -43,5 +44,13 @@ The json file can be found on "Step 3" folder.
 6. Sixth and last step is to create the dasboard on Power BI, the .pbix file can be found on "Step 5" folder for download.
 The dashboard can be filtered by Title, by Country using the map visualization and also by the date the Title was added, which can be visualized in granularity of Year, Month or Day. For each Title selection, it's shown the corresponding Duration, TV Parental Guidelines, Description and Category of the movie or TV show.
 <br/>
-
 ![dashboard_netflix](https://i.imgur.com/iDXb8Uh.png)
+<br/>
+
+# configuring the environment
+
+### Requirements
+
+- JDBC Driver version 9.4.0.jre8
+- Py4j version 0.10.9.5 
+- pyspark version 3.3.2
