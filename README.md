@@ -25,24 +25,18 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 <br/>
 
 2. Second step consists in create the database on Azure SQL and set up the firewall rules to include your Google Colab IP.
-<br/>
 (You can discover your Google Colab IP using "!curl ipecho.net/plain" on the notebook itself)
-<br/>
 Still in the database, you have to create a Schema and a table to receive the data, this step can be found on "Step 2" folder.
-<br/>
 
 3. Third step is to create a json file with your credentials of Azure database and upload on the session storage, the purpose is to don't expose your credentials on code.
-<br/>
 The json file can be found on "Step 3" folder.
-<br/>
 
 4. Fourth step is to finally run the notebook with all substitutions. The notebook can be found on "Step 4" folder. 
 
 5. Fifth step is to visualize data on Azure Portal or on SQL Server Management Studio to make sure the data was sent correctly.
 
-[sql-table-netflix](https://i.imgur.com/e5A35zA.png)
+![sql-table-netflix](https://i.imgur.com/e5A35zA.png)
 
 6. Sixth and last step is to create the dasboard on Power BI, the .pbix file can be found on "Step 5" folder for download.
-<br/>
 The dashboard can be filtered by Title, by Country using the map visualization and also by the date the Title was added, which can be visualized in granularity of Year, Month or Day. For each Title selection, it's shown the corresponding Duration, TV Parental Guidelines, Description and Category of the movie or TV show.
-[Imgur](https://i.imgur.com/iDXb8Uh.png)
+![dashboard_netflix](https://i.imgur.com/iDXb8Uh.png)
