@@ -18,7 +18,7 @@ Third and last step was connecting Azure SQL to Power BI to create a dashboard w
 <br/>
 
 ### Architecture:
-
+![architecture-netflix](https://i.imgur.com/yBW4eHw.jpg)
 ## Step by Step
 1. The first step is to copy the download link of the Dataset from the following page on Kaggle:
 https://www.kaggle.com/datasets/shivamb/netflix-shows
