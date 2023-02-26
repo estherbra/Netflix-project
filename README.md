@@ -9,7 +9,7 @@ This project consists on transforming data and loading a Pyspark dataframe into 
 
 ## 🌐 Overview
 
-The project was made with Pyspark language in the transformation stage, using Google Colab.
+The project was made with Pyspark language in transforming stage, using Google Colab.
 In this step, there was some processes such as treatment of invalid data, correction of data types, and replacing null values with "non_informed".
 <br/>
 After cleaning, next step was sending data to Azure SQL through a function with JDBC connection information, called in the end of the notebook.
@@ -25,8 +25,7 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 <br/>
 
 2. Second step consists in create the database on Azure SQL and set up the firewall rules to include your Google Colab IP.
-(You can discover your Google Colab IP using "!curl ipecho.net/plain" on the notebook itself)
-Still in the database, you have to create a Schema and a table to receive the data, this step can be found on "Step 2" folder.
+(You can discover your Google Colab IP using "!curl ipecho.net/plain" on the notebook itself). Still in the database, you have to create a Schema and a table to receive the data, this step can be found on "Step 2" folder.
 <br/>
 
 3. Third step is to create a json file with your credentials of Azure database and upload on the session storage, the purpose is to don't expose your credentials on code.
