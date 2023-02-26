@@ -41,7 +41,7 @@ The json file can be found on "Step 3" folder.
 ![sql-table-netflix](https://i.imgur.com/e5A35zA.png)
 <br/>
 
-6. Sixth and last step is to create the dasboard on Power BI, the .pbix file can be found on "Step 5" folder for download.
+6. Sixth and last step is to create the dasboard on Power BI, the .pbix file can be found on "Step 6" folder for download.
 The dashboard can be filtered by Title, by Country using the map visualization and also by the date the Title was added, which can be visualized in granularity of Year, Month or Day. For each Title selection, it's shown the corresponding Duration, TV Parental Guidelines, Description and Category of the movie or TV show.
 
 ![dashboard_netflix](https://i.imgur.com/iDXb8Uh.png)
