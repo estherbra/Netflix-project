@@ -3,18 +3,18 @@
 </div>
 
 # About the Project
-This project consists on transforming data and loading a Pyspark dataframe into an Azure database with JDBC connection, ending with a dashboard with insights about netflix movies and TV shows.
+This project consists of transforming data and loading a Pyspark dataframe into an Azure database with JDBC connection, ending with a dashboard with insights about netflix movies and TV shows.
 
 <br/>
 
 ## 🌐 Overview
 
 The project was made with Pyspark language in transforming stage, using Google Colab.
-In this step, there was some processes such as treatment of invalid data, correction of data types, and replacing null values with "non_informed".
+In this step, there were some processes such as treatment of invalid data, correction of data types, and replacing null values with "non_informed".
 <br/>
 After cleaning, next step was sending data to Azure SQL through a function with JDBC connection information, called in the end of the notebook.
 <br/>
-Third and last step was connecting Azure SQL to Power BI to create a dashboard with the main information about Netflix collection.
+Last step was connecting Azure SQL to Power BI to create a dashboard with the main information about Netflix collection.
 <br/>
 
 ### Architecture:
@@ -24,11 +24,11 @@ Third and last step was connecting Azure SQL to Power BI to create a dashboard w
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 <br/>
 
-2. Second step consists in create the database on Azure SQL and set up the firewall rules to include your Google Colab IP.
+2. Second step consists of creating the database on Azure SQL and setting up the firewall rules to include your Google Colab IP.
 (You can discover your Google Colab IP using "!curl ipecho.net/plain" on the notebook itself). Still in the database, you have to create a Schema and a table to receive the data, this step can be found on "Step 2" folder.
 <br/>
 
-3. Third step is to create a json file with your credentials of Azure database and upload on the session storage, the purpose is to don't expose your credentials on code.
+3. Third step is to create a json file with your credentials of Azure database and upload on the session storage, the purpose is to not expose your credentials on the code.
 The json file can be found on "Step 3" folder.
 <br/>
 
